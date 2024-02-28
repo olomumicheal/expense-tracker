@@ -1,0 +1,77 @@
+body{
+    font-family: 'poor story';
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    transform: translate(0, 78%);
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    font-variation-settings: 
+    700;
+    text-transform: capitalize;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="number"]{
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+
+.delete-btn{
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+@media (max-width: 768px){
+    .container{
+        margin: 10px;
+        padding: 10px;
+    }
+}
